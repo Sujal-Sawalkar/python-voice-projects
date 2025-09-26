@@ -1,7 +1,7 @@
 import sounddevice as sd
 import speech_recognition as sr
 import numpy as np
-
+#variable created
 recognizer = sr.Recognizer()
 
 print("Speak something...")
@@ -16,3 +16,4 @@ try:
     print("You said:", text)
 except sr.UnknownValueError:
     print("Sorry, could not understand.")
+
